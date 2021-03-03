@@ -1,0 +1,6 @@
+# x
+
+[Pub/Sub is a publish/subscribe (Pub/Sub) service: a messaging service where the senders of messages are decoupled from the receivers of messages](https://cloud.google.com/pubsub/architecture#the_basics_of_a_publishsubscribe_service:~:text=Pub%2FSub%20is%20a%20publish%2Fsubscribe%20(Pub%2FSub)%20service%3A,decoupled%20from%20the%20receivers%20of%20messages)
+[subscribers express interest in one or more classes and only receive messages that are of interest, without knowledge of which publishers, if any](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern#mw-content-text:~:text=subscribers%20express%20interest%20in%20one%20or,knowledge%20of%20which%20publishers%2C%20if%20any)
+[Publishers are never aware of the existence of subscribers so that both systems can operate independently of each other](https://blog.stackpath.com/pub-sub/#SBBCrossIframe:~:text=Publishers%20are%20never%20aware%20of%20the,can%20operate%20independently%20of%20each%20other)
+[Enable an application to announce events to multiple interested consumers asynchronously, without coupling the senders to the receivers.](https://docs.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber#publisher-subscriber-pattern:~:text=Enable%20an%20application%20to%20announce%20events,coupling%20the%20senders%20to%20the%20receivers.)
