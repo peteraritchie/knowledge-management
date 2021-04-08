@@ -54,6 +54,11 @@ ren repo-bare repo
 cd repo
 git update-server-info
 ```
+e.g.
+```ps1
+md new-repo; git clone --bare .\OpenAPI.NET\ new-repo
+rm -r -fo .\OpenAPI.NET\; ren new-repo OpenAPI.NET; cd .\OpenAPI.NET\; git update-server-info
+```
 
 ## Make a bare repo normal
 ```dotnetcli
