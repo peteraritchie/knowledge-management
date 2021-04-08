@@ -37,3 +37,16 @@ git checkout <my-new-branch>
 ```
 ### Else: You'll Have to Be More Careful Next Time
 
+## Make a repo bare
+```dotnetcli
+md ..\repo-bare
+git clone --bare ..\repo-bare
+cd ..\repo-bare
+git update-server-info
+```
+
+## Make a bare repo normal
+```dotnetcli
+git config --local --bool core.bare false
+git reset --hard
+```
