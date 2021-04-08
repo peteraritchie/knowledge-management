@@ -35,3 +35,9 @@ Get-ChildItem -force -path C:\ | Where-Object {!$_.Mode -match "h"}
 dir /b
 
 Get-ChildItem | Select-Object Name
+
+# Move
+## Dir
+```ps1
+Move-Item -Path C:\Temp -Destination C:\Logs
+```
