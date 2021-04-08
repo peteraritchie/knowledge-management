@@ -45,6 +45,16 @@ cd ..\repo-bare
 git update-server-info
 ```
 
+## Make a repo bare, 2
+```dotnetcli
+md repo-bare
+git clone --bare repo repo-bare
+rm -r -fo repo
+ren repo-bare repo
+cd repo
+git update-server-info
+```
+
 ## Make a bare repo normal
 ```dotnetcli
 git config --local --bool core.bare false
