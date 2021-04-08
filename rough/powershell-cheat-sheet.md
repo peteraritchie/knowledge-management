@@ -41,3 +41,8 @@ Get-ChildItem | Select-Object Name
 ```ps1
 Move-Item -Path C:\Temp -Destination C:\Logs
 ```
+
+## Filter list by field value
+```ps1
+alias | ? Name -Match ^.*rmdir.*$ 
+```
